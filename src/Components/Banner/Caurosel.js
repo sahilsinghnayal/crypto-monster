@@ -30,7 +30,7 @@ function Caurosel() {
     const { data } = await axios.get(TrendingCoins(currency));
     setTrending(data);
   };
-  console.log(trending);
+  // console.log(trending);
   useEffect(() => {
     fetchTrendingcoin();
   }, [currency]);
@@ -82,6 +82,7 @@ function Caurosel() {
         responsive={responsive}
         autoPlay
         items={items}
+        //items function  
       />
     </div>
   );
