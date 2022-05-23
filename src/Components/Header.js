@@ -27,7 +27,7 @@ const useStyles = makeStyles(() => ({
 const darkTheme = createTheme({
   palette: {
     primary: {
-      main: "#fff",
+      main: "#000000",
     },
     type: "dark",
   },

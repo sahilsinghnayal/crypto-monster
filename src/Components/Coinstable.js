@@ -55,7 +55,7 @@ export default function CoinsTable() {
   const darkTheme = createTheme({
     palette: {
       primary: {
-        main: "#fff",
+        main: "#000000",
       },
       type: "dark",
     },
@@ -72,6 +72,7 @@ export default function CoinsTable() {
 
   useEffect(() => {
     fetchCoins();
+    // eslint-disable-next-line
   }, [currency]);
 
   const handleSearch = () => {

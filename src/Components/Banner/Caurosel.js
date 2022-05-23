@@ -33,6 +33,7 @@ function Caurosel() {
   // console.log(trending);
   useEffect(() => {
     fetchTrendingcoin();
+    // eslint-disable-next-line
   }, [currency]);
 
   const items = trending.map((coin) => {
